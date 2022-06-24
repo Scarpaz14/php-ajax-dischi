@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.container-fluid{
+    background-color: #2e3a46;
+    height:70px;
+
+
+}
+
+.col{
+  height: 100%;
+}
+
+main{
+    background-color: #1e2d3b;
+    
+}
+
+.card-song{
+    color: white;
+    background-color: #2e3a46 ;
+
+}
+.logo{
+    height: 50px;
+    display: flex;
+}
+
+

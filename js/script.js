@@ -5,9 +5,9 @@ const app = new Vue({
     },
 
 created(){
-    axios.get('http://localhost/php-ajax-dischi/api.php')
+    axios.get('http://localhost/php-ajax-dischi//api.php')
     .then((response)=>{
-        this.database = response.data
+        this.database = response.data;
     })
     .catch((error) => {
         console.log(error);
